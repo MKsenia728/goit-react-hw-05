@@ -1,7 +1,7 @@
 import { IoSearchSharp } from "react-icons/io5";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { getMoviesByQuery } from "../../services/MoviesService";
+import { getMoviesByQuery } from "../../services/moviesService";
 import Loader from "../../components/Loader/Loader";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import MoviesList from "../../components/MoviesList/MoviesList";
