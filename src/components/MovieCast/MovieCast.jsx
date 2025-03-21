@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getCastByMovieId } from "../../services/MoviesService";
+import { getCastByMovieId } from "../../services/moviesService";
 import Loader from "../Loader/Loader";
 import css from "./MovieCast.module.css";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";

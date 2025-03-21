@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
-import { getMovieById } from "../../services/MoviesService";
+import { getMovieById } from "../../services/moviesService";
 import Loader from "../../components/Loader/Loader";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import MovieDetail from "../../components/MovieDetail/MovieDetail";

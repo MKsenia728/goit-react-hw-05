@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import css from "./MovieReviews.module.css";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
-import { getReviewsByMovieId } from "../../services/MoviesService";
+import { getReviewsByMovieId } from "../../services/moviesService";
 
 const MovieReviews = () => {
   const [reviews, setReviews] = useState([]);

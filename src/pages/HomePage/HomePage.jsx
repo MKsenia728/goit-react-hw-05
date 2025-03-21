@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllMovies } from "../../services/MoviesService";
+import { getAllMovies } from "../../services/moviesService";
 import Loader from "../../components/Loader/Loader";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import MoviesList from "../../components/MoviesList/MoviesList";
